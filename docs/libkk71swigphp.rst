@@ -13,6 +13,8 @@ The project is based on gnu automake system. Many original 'swig' project exampl
 
 The project can be built as follows on an Ubuntu system with PHP 5.6.29:
 
+.. code-block:: guess
+
  git clone https://github.com/kresimir71/libkk71swigphp.git
  cd libkk71swigphp
  autoreconf --make --install --force
@@ -21,10 +23,14 @@ The project can be built as follows on an Ubuntu system with PHP 5.6.29:
 
 To test 'simple' example from 'swig' distribution:
 
+.. code-block:: guess
+
  cd /usr/local/lib/kk71swigphp/examples/simple
  php -n -q -d extension_dir=. -d safe_mode=Off runme.php
 
 To test 'class' example from 'swig' distribution:
+
+.. code-block:: guess
 
  cd /usr/local/lib/kk71swigphp/examples/class
  php -n -q -d extension_dir=. -d safe_mode=Off runme.php
