@@ -1,2 +1,2 @@
 # libkk71swigphp
-using C/C++ dynamic libraries from PHP by using swig 
+http://libkk71swigphp.readthedocs.io/en/latest/
